@@ -27,6 +27,12 @@ int main()
   cout << "Matrix a = " << endl << a << endl;
   cout << "Matrix b = " << endl << b << endl;
   cout << "Matrix c = a + b" << endl << c << endl;
+
+  const char exit = 'e';
+  char ch;
+  do {
+	  cin >> ch;
+  } while (ch != exit);
   
   return 0;
 }
